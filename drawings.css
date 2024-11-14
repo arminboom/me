@@ -1,0 +1,63 @@
+#Container {
+    background-image: radial-gradient(#ff8000, #ffb648, #ffb648);
+    height: 180px;
+}
+
+#Introduction {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;  
+    position: absolute;
+    left: 200px;
+    top: -20px;
+    min-width: 1000px;
+}
+
+#Introductiondesc {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;  
+    position: absolute;
+    left: 200px;
+    top: 90px;
+    min-width: 1250px;
+}
+
+#Description, #AlmightyDreamText{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;  
+    text-align: center;
+}
+
+#AlmightyDreamImage {
+    flex-basis: 15%;
+}
+
+#AlmightyDream {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;  
+}
+
+.Navigation a {
+    color: black;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    min-width: 1000px;
+}
+
+body {
+    background-image: url("Gradients/Gradient.png");
+    background-repeat: no-repeat;
+}
+
+#Armin:hover {
+    opacity: 0.8;
+}
+
+
+
+
